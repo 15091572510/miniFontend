@@ -1,0 +1,28 @@
+/* pages/home/home.wxss */
+.list-item {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 10px;
+}
+.list-item > image {
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+}
+.list-item .item-content {
+  margin-left: 10px;
+  color: #333333;
+}
+.list-item .item-content .title {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+}
+.list-item .item-content .desc {
+  font-size: 12px;
+  display: block;
+}
