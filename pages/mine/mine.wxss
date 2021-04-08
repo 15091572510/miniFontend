@@ -1,0 +1,35 @@
+/* pages/mine/mine.wxss */
+page {
+  height: 100%;
+}
+.content {
+  height: 100%;
+  text-align: center;
+  background: rgba(0,0,0,0.05);
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.2);
+  margin-top: 50px;
+}
+.list {
+  padding: 20px;
+}
+.list .list-item {
+  padding: 20px 10px 5px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  width: 100%;
+  padding-left: 50px;
+  box-sizing: border-box;
+  text-align: left;
+  color: #333333;
+  display: flex;
+  justify-content: space-between;
+}
+.list .list-item text:last-child {
+  font-weight: 400;
+}

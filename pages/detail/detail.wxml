@@ -1,0 +1,5 @@
+<view class="content">
+  <button>观看广告</button>
+
+  <button>购买</button>
+</view>

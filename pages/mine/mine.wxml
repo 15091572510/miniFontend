@@ -1,0 +1,14 @@
+<!--pages/mine/mine.wxml-->
+<view class="content">
+  <image class="avatar" src="https://imgshop.woojia.com/newimages/s-20210401/11/e36535a9c37ba689cf514db40a760cf2.png" />
+  <view class="list">
+    <view class="list-item">
+      <text>购买记录</text>
+      <text>></text>
+    </view>
+    <view class="list-item">
+      <text>我的优惠卷</text>
+      <text>></text>
+    </view>
+  </view>
+</view>

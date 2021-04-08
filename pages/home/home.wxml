@@ -1,6 +1,6 @@
 <view class="container">
   <view class="list">
-    <view class="list-item" wx:for="{{list}}">
+    <view class="list-item" wx:for="{{list}}" bindtap="detail">
       <image src="{{item.imgUrl}}" />
       <view class="item-content">
         <text class="title">{{item.title}}</text>
